@@ -10,8 +10,8 @@ API, которое на HTTP-запрос GET /weather?city=<city_name>, где
 1. Клонируйте репозиторий:
 
 ```sh
-git clone <URL вашего репозитория>
-cd <имя папки с вашим репозиторием>
+git clone https://github.com/RedHotChilliHead/KODE.git
+cd appKODE
 ```
 
 2. Установите зависимости:
