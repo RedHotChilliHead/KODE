@@ -36,8 +36,8 @@ class WeatherAPIView(APIView):
                 response_data = response.json()
                 data = {
                     "Текущая температура С": response_data['main']['temp'],
-                    "Атомсферное давление (мм рт.ст.)": int(response_data['main']['pressure'] * 0.750064),
                     # гектопаскали переводим в мм.рт.ст.
+                    "Атомсферное давление (мм рт.ст.)": int(response_data['main']['pressure'] * 0.750064),
                     "Скорость ветра (м/c)": response_data['wind']['speed'],
                 }
 
